@@ -15,7 +15,7 @@ function App() {
                 <div className="App">
                 <Nav />
                 <Routes>
-                    <Route exact path='/' element={ <Home /> }></Route>
+                    <Route exact path='/space-tourism' element={ <Home /> }></Route>
                     <Route exact path='/destination' element={ <Destination /> }></Route>
                     <Route exact path='/crew' element={ <Crew /> }></Route>
                     <Route exact path='/technology' element={ <Technology /> }></Route>

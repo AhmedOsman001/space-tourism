@@ -28,7 +28,7 @@ export default function Nav(){
                 </span>
                 
                 <li className="nav-item" >
-                    <Link to="/">
+                    <Link to="/space-tourism">
                         <span className="nav-num">00</span>
                         Home
                     </Link>
