@@ -1,0 +1,115 @@
+
+.swap { 
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 3em;
+}
+
+.circle {
+    background-color : white;
+    opacity: 0.17;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.crew .active  {
+    opacity: 1;
+}
+
+.circle:hover { 
+    opacity: 0.5;
+}
+
+.crew img { 
+    height: 50%;
+    width: 50%;
+    border-bottom: 1px solid #5b5b5b;
+
+}
+
+.role { 
+    text-transform: uppercase;
+    font-family: "Bellefair" , sans-serif;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.crew .name { 
+    text-transform: uppercase;
+    font-family: "Bellefair" , sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.bio { 
+    margin-bottom: 3em;
+}
+
+@media (min-width:600px) {
+    .img-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .wrap-container { 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .role {
+        font-size: 1.5rem;
+
+    }
+    .text-container .name  {
+        font-size:2.5rem ;
+    }
+
+    .bio { 
+        margin: 0 9em;
+    }
+}
+
+
+@media (min-width:1024px){
+    .wrap-container { 
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .crew img{
+        width: auto;
+        height: auto;
+        max-height: 70vh;
+        margin-top: 4px;
+        border: none;
+    }
+    .swap{ 
+        position: absolute;
+        bottom: 0;
+        left: 150px;
+    }
+    .role {
+        font-size: 2rem;
+
+    }
+    .text-container .name  {
+        font-size:3.5rem ;
+    }
+
+    .bio { 
+        margin: 0;
+    }
+
+    .img-container, .text-container{
+        flex: 1;
+    }
+    .text-container {
+        margin-left: 12em;
+    }
+    
+}

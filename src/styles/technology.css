@@ -1,0 +1,103 @@
+
+.technology img {
+    width:100%;
+    height: auto;
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.num:hover{
+    border: 1px solid #FFFFFF;
+}
+
+.num{
+    border-radius: 50%;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 37px;
+    text-align: center;
+    color: white;
+    border: 1px solid #757474;
+    padding: 3px 0px 0px 16px ;
+    cursor: pointer;
+}
+
+.activeTech{
+    background-color: white;
+    color: #0B0D17;
+    opacity: 1;
+}
+
+.technology .name {
+    font-family: "bellefair";
+    font-size: 1.5rem;
+}
+
+.technology .role {
+    font-family: "barlow condensed";    
+    font-size: 14px;
+    color: #d0d6f9;
+    letter-spacing: 2.37px;
+    line-height: 28px;
+    opacity: 1;
+}
+
+@media (min-width:600px) {
+    .num { 
+        font-size: 1.5rem;
+        width: 58px;
+        height: 58px;
+        padding: 11px 0 0 23px;
+    }
+
+    .technology .description  {
+        margin: 0 9em;
+        font-size: 1rem;
+    }
+    .technology .name {
+        font-size: 2.5rem;
+    }
+
+    .technology .role {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width:1024px) {
+    .technology img { 
+        width: auto;
+        max-height: 66vh;
+    }
+    .technology {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .technology .description {
+        margin: 0;
+    }
+
+    .technology .text-container { 
+        margin-left: 20em;
+        max-width: 400px;
+    }
+
+    .technology .swap { 
+        flex-direction: column;
+        left: 100px;
+        bottom: 100px;
+    }
+    .box .subheadding { 
+        margin: 1.5em;
+    }
+
+}
