@@ -55,8 +55,8 @@ export default function Technology() {
                 
                 
                 <picture>
-                    <source media="(max-width: 1023px)" srcSet={image()[0]} className="tech-img" />
-                    <source media="(min-width: 1024px)" srcSet={image()[1]} className="tech-img" />
+                    <source media="(max-width: 1024px)" srcSet={image()[0]} className="tech-img" />
+                    <source media="(min-width: 1025px)" srcSet={image()[1]} className="tech-img" />
                     <img src={image()[1]} alt={name} className="tech-img" />
                 </picture>
                 

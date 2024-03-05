@@ -120,7 +120,7 @@ h4 {
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1025px) {
     .destination img {
         width: 445px;
         height: 445px;
